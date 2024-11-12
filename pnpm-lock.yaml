@@ -26,6 +26,9 @@ importers:
       '@primevue/themes':
         specifier: ^4.0.7
         version: 4.0.7
+      '@stripe/stripe-js':
+        specifier: ^4.9.0
+        version: 4.9.0
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
@@ -1733,6 +1736,10 @@ packages:
   '@sindresorhus/merge-streams@2.3.0':
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
+
+  '@stripe/stripe-js@4.9.0':
+    resolution: {integrity: sha512-tMPZQZZXGWyNX7hbgenq+1xEj2oigJ54XddbtSX36VedoKsPBq7dxwRXu4Xd5FdpT3JDyyDtnmvYkaSnH1yHTQ==}
+    engines: {node: '>=12.16'}
 
   '@stylistic/eslint-plugin@2.9.0':
     resolution: {integrity: sha512-OrDyFAYjBT61122MIY1a3SfEgy3YCMgt2vL4eoPmvTwDBwyQhAXurxNQznlRD/jESNfYWfID8Ej+31LljvF7Xg==}
@@ -6864,6 +6871,8 @@ snapshots:
     optional: true
 
   '@sindresorhus/merge-streams@2.3.0': {}
+
+  '@stripe/stripe-js@4.9.0': {}
 
   '@stylistic/eslint-plugin@2.9.0(eslint@9.12.0(jiti@2.3.1))(typescript@5.6.2)':
     dependencies:
