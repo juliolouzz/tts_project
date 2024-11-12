@@ -1,6 +1,6 @@
 # `TTS Project`
 
-Final Prokect to NCI!
+Final Project to NCI!
 
 ## Tech Stack
 
@@ -11,6 +11,7 @@ Final Prokect to NCI!
 - ElevenLabs
 - Tailwind
 - PrimeVue
+- Stripe
 
 ## .env
 
@@ -28,11 +29,15 @@ NUXT_CLERK_SECRET_KEY=<clerk-secret-key>
 
 CLERK_SIGN_IN_FORCE_REDIRECT_URL=http://localhost:3000/generations
 CLERK_SIGN_UP_FORCE_REDIRECT_URL=http://localhost:3000/generations
+
+STRIPE_SECRET_KEY=<Stripe-secret-key>
+STRIPE_PUBLISHABLE_KEY=<Stripe-publishable-key>
+BASE_URL=http://localhost:3000
 ```
 
 ## To run locally
 
-Para rodar o projeto localmente, execute os seguintes comandos:
+To run the project locally, run the commands:
 
 ```bash
 pnpm install
