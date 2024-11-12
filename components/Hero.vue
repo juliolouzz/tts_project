@@ -5,6 +5,10 @@ const emit = defineEmits<{
   (e: 'register'): void;
   (e: 'new'): void;
 }>();
+
+const redirectToStripe = () => {
+  window.location.href = 'https://buy.stripe.com/test_aEUaFOakncLnekMeUU'; // Replace with your generated Stripe payment link
+};
 </script>
 
 <template>
@@ -37,7 +41,7 @@ const emit = defineEmits<{
         class="mt-5"
         label="Start now"
         icon="pi pi-plus"
-        @click="() => emit('new')"
+        @click="redirectToStripe"
       />
     </SignedIn>
   </div>
